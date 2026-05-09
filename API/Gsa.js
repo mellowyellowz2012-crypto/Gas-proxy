@@ -1,6 +1,6 @@
 export default async function handler(req, res) {
   const { city, state } = req.query;
-  const apiKey = 'YOUR_NEW_GSA_API_KEY';
+  const apiKey = '0ImlEo1higoGBGRgLSBG3dodzJjYOJeXLwU24RWZ';
   
   const url = `https://api.gsa.gov/travel/perdiem/v2/rates/city/${city}/state/${state}/year/2025?api_key=${apiKey}`;
   
